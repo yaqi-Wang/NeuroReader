@@ -1,6 +1,6 @@
 # NeuroReader: Prompt-Conditioned Brain-to-Language Decoding from fMRI
 
-NeuroReader is a multi-stage brain-to-language framework that maps functional magnetic resonance imaging (fMRI) responses to prompt-conditioned natural-language descriptions. Instead of reconstructing pixels, it predicts continuous visual representations compatible with a large vision-language model and uses them to answer questions about scene content, objects, relations, activities, interactions, and contextual cues.
+NeuroReader is a multi-stage brain-to-language framework that maps functional magnetic resonance imaging (fMRI) responses to prompt-conditioned natural-language descriptions. Instead of reconstructing pixels, it predicts continuous visual representations compatible with a large vision-language model and uses them to answer questions about scene content, objects, relations, activities, interactions, and contextual cues. We will upload the complete code after receiving the article.
 
 ## Graphical abstract
 
@@ -277,14 +277,6 @@ python profile_model.py --config configs/config_profile.json
 - On Linux, output paths are case-sensitive; for example, `results/ablation` and `results/Ablation` are different directories.
 - The committed checkpoints, model weights, and source NSD arrays are not included in this code directory.
 - Open-ended answers can contain unsupported details when the brain-derived representation is ambiguous; generated text should not be interpreted as uniquely attributable to the fMRI signal without appropriate controls.
-
-## Citation
-
-If you use this code, please cite the NeuroReader paper. The final BibTeX entry will be added after publication.
-
-## Acknowledgements
-
-This project builds on the Natural Scenes Dataset, COCO captions, Janus-Pro, SigLIP, CLIP/OpenCLIP, and the broader open-source PyTorch and Hugging Face ecosystems.
 
 ## License
 
